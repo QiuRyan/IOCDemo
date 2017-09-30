@@ -1,15 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IOCDemo
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
+            IIocType autofacIocType = new AutoFacIoc();
+
+            IIocType ninjectIocType = new NinjectIoc();
+            IIocType castleWindsorIocType = new CastleWindsorIoc();
+
+            autofacIocType.GetCurrentIocType();
+            ninjectIocType.GetCurrentIocType();
+            castleWindsorIocType.GetCurrentIocType();
+
+            Console.ReadKey();
         }
     }
 }
