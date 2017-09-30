@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOCDemo", "IOCDemo\IOCDemo.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOC.Demo.Lib", "IOC.Demo.Lib\IOC.Demo.Lib.csproj", "{932C5BE4-BAA3-4193-A60D-D3A5D8F59903}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{947690F8-DA02-4C74-9D3D-945DBDCFCD66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{932C5BE4-BAA3-4193-A60D-D3A5D8F59903}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{932C5BE4-BAA3-4193-A60D-D3A5D8F59903}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{932C5BE4-BAA3-4193-A60D-D3A5D8F59903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{947690F8-DA02-4C74-9D3D-945DBDCFCD66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947690F8-DA02-4C74-9D3D-945DBDCFCD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{947690F8-DA02-4C74-9D3D-945DBDCFCD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947690F8-DA02-4C74-9D3D-945DBDCFCD66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
